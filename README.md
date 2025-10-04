@@ -6,7 +6,7 @@ It will have three main modules:
 3. Database: DB's configs, tables and query definitions. Probably MySQL.
 
 ## Decisions
-- As Garmin has a very straight API policy, only allowing enterprise registered users to connect directly into their endpoints, we are going to use Strava's API ecosystem to gather data (which has a free tier and friendly documentation).
+- As Garmin has a very strict API policy, only allowing enterprise registered users to connect directly into their endpoints, we are going to use Strava's API ecosystem to gather data (which has a free tier and friendly documentation).
 
 ## Learnings through the process
 - Swagger Codegen: Tool that generates stubs and client SDKs for any API, based on a JSON specification.
